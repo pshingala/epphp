@@ -1,0 +1,161 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#ffffff;
+	color:#4a4a4a;
+}
+a {
+	color:#6fbc18;
+	text-decoration:underline;
+}
+a:hover {
+	color:#6fbc18;
+	text-decoration:none;
+}
+img {
+	border:0;
+}
+h1 {
+	color:#6fbc18;
+	font-size:24px;
+	font-weight:bold;
+	padding:0 0 20px 0;
+}
+#container { 
+	width: 980px;  
+	margin: 0 auto;
+}
+.logo {
+	padding:40px 0;
+}
+.icons {
+	padding:5px 5px 3px 5px;
+	background:#FFFFFF;
+	float:right;
+	margin:15px;
+} 
+.icons li {
+	display:inline;
+	list-style:none;
+}
+.slogan {
+	font-size:24px;
+	color:#FFFFFF;
+	margin-left:200px;
+	margin-right:300px;
+	padding-top:30px;
+}
+#header .headerPic {
+	background:url(images/headerBackground.jpg) no-repeat left top;
+	width:980px;
+	height:420px; 
+}
+.headerText1 {
+	font-size:48px;
+	color:#ffffff;
+	padding:100px 0 0 90px;
+}
+.headerText2 {
+	font-size:24px;
+	padding:10px 0 0 90px;
+}
+.buttonHeader {
+	background:#ffa800;
+	border:0;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding:5px 10px;
+	cursor:pointer;
+	margin:30px 0 0 90px;
+}
+.menuContainer {
+	background:#484848;
+}
+.menu {
+	float:left;
+	padding:20px 0 0 0;
+	margin:0 0 20px 0;
+}
+.menu ul {
+	padding:0px 0 0 0;
+}
+.menu li {
+	list-style:none;
+	display:inline;
+	padding: 0 15px;
+} 
+.menu li a {
+	text-decoration:none;
+	color:#ffffff;
+	font-size:14px;
+	padding:10px;
+}
+.menu li a:hover {
+	text-decoration:none;
+	color:#ffffff;
+	font-size:14px;
+	background:#ffa800;
+	padding:10px;
+}
+.menu #active a {
+	text-decoration:none;
+	color:#ffffff;
+	font-size:14px;
+	background:#ffa800;
+	padding:10px;
+}
+.box {
+	float:left;
+	width:290px;
+	padding:10px;
+	margin:20px 7px;
+	background:#dfe0e2;
+}
+.buttonBox {
+	background:#484848;
+	border:0;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding:5px 10px;
+	cursor:pointer;
+}
+.box p {
+	padding:20px 0;
+}
+.boxButton {
+	float:right;
+}
+#mainContent {
+	background:#ffffff;
+	padding:20px 0;
+}
+.picRight {
+	float:right;
+	padding:0 0 15px 20px;
+} 
+#footer {
+	background:#dfe0e2;
+	color:#535353;
+	padding:15px 0; 
+}
+#footer p {
+	text-align:center;
+} 
+#footer a {
+	color:#6fbc18;
+	text-decoration:underline;
+}
+#footer a:hover {
+	color:#6fbc18;
+	text-decoration:none;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
