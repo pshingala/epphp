@@ -1,4 +1,15 @@
-    <?php
+<!--
+Prerequesites:
+1.  Running PHP environemnt, preferably php version 5.2.0 or greater
+2.  Callback Url should be accessable from internet.
+
+
+Setting Developer App:
+1.  Create developer app sort summery.
+2.  Make sure client id and client secret is used by callback end point.-->
+
+
+<?php
     
     $client_id = 'ECC17BBF-31DE-4442-9D87-D8AD545DE942';
     $client_secret = 'p3l3lePZQqtatM5uWalcZuZfyGDgovqz';
